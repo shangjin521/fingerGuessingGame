@@ -1,0 +1,28 @@
+//
+//  猜拳游戏.pch
+//  猜拳游戏
+//
+//  Created by 张志敏 on 16/1/13.
+//  Copyright © 2016年 张志敏. All rights reserved.
+//
+
+#ifndef _____pch
+#define _____pch
+
+
+#import <Availability.h>
+
+#ifndef __IPHONE_7_0
+#warning "This project uses features only available in iOS SDK 7.0 and later."
+#endif
+
+
+#ifdef __OBJC__
+
+#define NSLog(...) NSLog(__VA_ARGS__)
+#import "FistType.h"
+#import <UIKit/UIKit.h>
+
+#endif
+
+#endif /* _____pch */
